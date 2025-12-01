@@ -1,0 +1,11 @@
+# Не включать в Git
+.env
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.idea/
+
+# Yii 2 runtime files (если будут)
+yii2-module/runtime/
+yii2-module/web/assets/

@@ -1,0 +1,9 @@
+# Core dependencies
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+python-dotenv==1.0.0
+
+# AI Models
+huggingface-hub==0.20.3    # For FREE HuggingFace model (default)
+openai==1.12.0             # For OpenAI (optional, requires API key)
